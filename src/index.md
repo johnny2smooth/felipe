@@ -1,6 +1,6 @@
 ---
-title: 'Hello, world'
+title: 'The world of Felipe'
 layout: 'layouts/home.html'
 ---
 
-This is pretty _rad_, right?
+Funky funky business
