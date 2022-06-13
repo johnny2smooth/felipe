@@ -1,9 +1,14 @@
 {% extends "layouts/base.html" %} {% block content %}
 <article>
   <h1>{{ title }}</h1>
-  <h2 class="text-3xl text-red-500">
-    Hello Fucker world! I love you, So so much
-  </h2>
+  <h2 class="text-3xl text-red-500 p-8">Now I hate! Arghhh</h2>
   {{ content | safe }}
+  <!--  -->
+  <button
+    class="m-4 active:bg-sky-900 hover:shadow-md active:border-4 bg-sky-500 hover:bg-sky-700 text-white px-2 py-1 rounded-xl border-slate-300 focus:shadow-sm"
+  >
+    Some cool buttons
+  </button>
+  <!--  -->
 </article>
 {% endblock %}
