@@ -1,0 +1,38 @@
+{% block content%}
+<div
+  class="flex bg-blueWater items-baseline justify-between p-6 flex-wrap gap-4"
+>
+  <div class="flex items-baseline flex-wrap">
+    <h1 class="font-bold text-4xl md:text-6xl lg:text-6xl hover:underline">
+      <a href="/">Felipe Matamala</a>
+    </h1>
+    <p class="text-sm">Psychoanalyst</p>
+  </div>
+  <div class="flex items-baseline">
+    <ul class="flex justify-end items-baseline gap-4 flex-wrap">
+      <li>
+        <a
+          href="/practice"
+          class="hover:underline px-2 text-xl sm:text-xl font-bold"
+          >Practice</a
+        >
+      </li>
+      <li>
+        <a href="/writings" class="hover:underline px-2 text-xl font-bold"
+          >Writings</a
+        >
+      </li>
+      <li>
+        <a href="/supervision" class="hover:underline px-2 text-xl font-bold"
+          >Supervision</a
+        >
+      </li>
+      <li>
+        <a href="/about" class="hover:underline px-2 text-xl font-bold"
+          >About</a
+        >
+      </li>
+    </ul>
+  </div>
+</div>
+{% endblock %}
