@@ -1,0 +1,23 @@
+{
+  "name": "felipe",
+  "version": "1.0.0",
+  "description": "A site for Felipe. Built with 11ty and styled with Tailwind",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnny2smooth/felipe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnny2smooth/felipe/issues"
+  },
+  "homepage": "https://github.com/johnny2smooth/felipe#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  }
+}
