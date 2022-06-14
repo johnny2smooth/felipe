@@ -9,6 +9,7 @@
     <link href="output.css" rel="stylesheet" />
   </head>
   <body class="bg-whiteLight">
-    {% include "partials/site-head.html" %} {% block content %}{% endblock %}
+    <div class="pb-16 mb-6">{% include "partials/site-head.html" %}</div>
+    {% block content %}{% endblock %}
   </body>
 </html>

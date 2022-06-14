@@ -1,17 +1,17 @@
 {% block content%}
-<div class="static flex items-baseline justify-between p-4 flex-wrap gap-2">
+<div
+  class="static fixed flex items-baseline justify-between p-4 flex-wrap gap-2 bg-whiteLight"
+>
   <div class="flex items-baseline flex-wrap">
     <h1 class="font-bold text-4xl md:text-6xl lg:text-6xl hover:underline">
       <a href="/">Felipe Matamala</a>
     </h1>
     <p class="text-sm">Psychoanalyst</p>
   </div>
-  <div class="absolute top-6 right-4 flex justify-end w-full">
+  <div class="absolute top-7 right-7 flex justify-end w-full">
     <a href="/"
-      ><svg
-        class="bg-gradient-to-t from-yellow-500 via-purple-500 to-pink-500 w-16 h-14 cursor-pointer md:hidden block"
-      >
-        {% include "partials/modern-triple.svg" %}
+      ><svg class="w-6 h-6 cursor-pointer md:hidden block">
+        {% include "partials/burger.svg" %}
       </svg>
     </a>
   </div>
