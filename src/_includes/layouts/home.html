@@ -1,42 +1,20 @@
 {% extends "layouts/base.html" %} {% block content %}
 <article>
-  <!--  -->
-  <h1 class="text-4xl">{{ title }}</h1>
-  <h2 class="text-3xl text-red-500 p-8">Now I hate! Arghhh</h2>
-  {{ content | safe }}
-  <!--  -->
-  <button
-    class="m-4 active:bg-blueWater hover:shadow-md active:border-4 bg-blueWater hover:bg-green-500 text-white px-2 py-1 rounded-xl border-slate-300 focus:shadow-sm"
-  >
-    Some cool buttons
-  </button>
-  <h1>{{ title }}</h1>
-  <h2 class="text-3xl text-red-500 p-8">Now I hate! Arghhh</h2>
-  {{ content | safe }}
-  <!--  -->
-  <button
-    class="m-4 active:bg-blueWater hover:shadow-md active:border-4 bg-blueWater hover:bg-green-500 text-white px-2 py-1 rounded-xl border-slate-300 focus:shadow-sm"
-  >
-    Some cool buttons
-  </button>
-  <h1>{{ title }}</h1>
-  <h2 class="text-3xl text-red-500 p-8">Now I hate! Arghhh</h2>
-  {{ content | safe }}
-  <!--  -->
-  <button
-    class="m-4 active:bg-blueWater hover:shadow-md active:border-4 bg-blueWater hover:bg-green-500 text-white px-2 py-1 rounded-xl border-slate-300 focus:shadow-sm"
-  >
-    Some cool buttons
-  </button>
-  <h1>{{ title }}</h1>
-  <h2 class="text-3xl text-red-500 p-8">Now I hate! Arghhh</h2>
-  {{ content | safe }}
-  <!--  -->
-  <button
-    class="m-4 active:bg-blueWater hover:shadow-md active:border-4 bg-blueWater hover:bg-green-500 text-white px-2 py-1 rounded-xl border-slate-300 focus:shadow-sm"
-  >
-    Some cool buttons
-  </button>
-  <!--  -->
+  <div class="p-3 flex flex-col">
+    <h1 class="text-6xl font-black text-blueWater my-1 mx-auto">Better Help</h1>
+    {% include "partials/grid-home.html" %}
+    <h2 class="text-3xl font-bold py-2">Why Felipe is el GOAT</h2>
+    <p class="pl-2 my-4">
+      A little message about how it is better. I mean besides the fact that is
+      operated by the goat. He has a lot of experience and stuff. He is also my
+      cousin so I am a little biased, I'll admit. This is a good place to
+      introduce this mf. Also, let's keep it short. We can get into detail
+      later. But what is important is that we put his bitmoji here. Down below.
+    </p>
+    <div>
+      <hr class="h-2 bg-blueWater" />
+      {% include "partials/cta-main.html" %}
+    </div>
+  </div>
 </article>
 {% endblock %}

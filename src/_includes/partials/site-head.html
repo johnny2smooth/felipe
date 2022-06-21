@@ -1,6 +1,6 @@
 {% block content%}
 <div
-  class="static fixed flex items-baseline justify-between p-4 flex-wrap gap-2 bg-whiteLight"
+  class="static fixed w-full md:flex items-baseline justify-between p-4 flex-wrap gap-2 bg-whiteLight"
 >
   <div class="flex items-baseline flex-wrap">
     <h1 class="font-bold text-4xl md:text-6xl lg:text-6xl hover:underline">
@@ -8,38 +8,7 @@
     </h1>
     <p class="text-sm">Psychoanalyst</p>
   </div>
-  <div class="absolute top-7 right-7 flex justify-end w-full">
-    <a href="/"
-      ><svg class="w-6 h-6 cursor-pointer md:hidden block">
-        {% include "partials/burger.svg" %}
-      </svg>
-    </a>
-  </div>
-  <nav class="flex items-baseline hidden">
-    <ul class="flex justify-end hidden items-baseline gap-4 flex-wrap">
-      <li>
-        <a
-          href="/practice"
-          class="hover:underline px-2 text-xl sm:text-xl font-bold"
-          >Practice</a
-        >
-      </li>
-      <li>
-        <a href="/writings" class="hover:underline px-2 text-xl font-bold"
-          >Writings</a
-        >
-      </li>
-      <li>
-        <a href="/supervision" class="hover:underline px-2 text-xl font-bold"
-          >Supervision</a
-        >
-      </li>
-      <li>
-        <a href="/about" class="hover:underline px-2 text-xl font-bold"
-          >About</a
-        >
-      </li>
-    </ul>
-  </nav>
+  {% include "partials/nav-burger.html" %} {% include "partials/site-nav.html"
+  %}
 </div>
 {% endblock %}
