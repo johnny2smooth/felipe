@@ -1,14 +1,24 @@
 {% block content %}
-<div class="my-4 flex flex-wrap justify-between">
-  <div class="text-blueWater flex flex-wrap my-2">
-    <h3>
+<div
+  class="my-4 flex flex-wrap justify-evenly bg-blueWater text-whiteLight px-4 width-full content-center"
+>
+  <div class="flex flex-wrap my-2 text-3xl">
+    <h3 class="max-w-xs">
       Felipe matamala is currently:
-      <span class="text-green-500 font-bold">Available</span> for bookings
+      <span class="text-green-500 text-4xl font-bold"
+        ><a href="/" class="underline">Available</a></span
+      >
+      for bookings
     </h3>
   </div>
-  <div class="text-blueWater flex flex-wrap my-2">
-    <p>sign up! Right now</p>
-    <p>Definately want to put in email input here for a sign up</p>
+  <div class="my-2 text-xl max-w-prose">
+    <div class="">
+      <h4><a href="/">sign up! Right now *icon*</a></h4>
+      <p>
+        A little description about what you'd get from clicking on the next
+        button
+      </p>
+    </div>
   </div>
 </div>
 {% endblock %}
